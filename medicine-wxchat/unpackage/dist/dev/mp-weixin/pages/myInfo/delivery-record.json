@@ -1,7 +1,0 @@
-{
-  "navigationBarBackgroundColor": "#FFFFFF",
-  "navigationBarTitleText": "投递记录",
-  "usingComponents": {
-    "post": "/components/list/post"
-  }
-}

@@ -1,7 +1,0 @@
-{
-  "navigationBarBackgroundColor": "#FFFFFF",
-  "navigationBarTitleText": "企业名录",
-  "usingComponents": {
-    "company": "/components/list/company"
-  }
-}

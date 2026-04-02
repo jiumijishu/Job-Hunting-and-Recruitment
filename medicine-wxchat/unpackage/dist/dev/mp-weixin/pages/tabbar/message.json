@@ -1,8 +1,0 @@
-{
-  "navigationBarTitleText": "消息",
-  "navigationBarBackgroundColor": "#FFFFFF",
-  "enablePullDownRefresh": false,
-  "usingComponents": {
-    "post": "/components/list/post"
-  }
-}

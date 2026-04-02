@@ -1,8 +1,0 @@
-{
-  "navigationBarTitleText": "找工作",
-  "navigationBarBackgroundColor": "#FFFFFF",
-  "enablePullDownRefresh": true,
-  "usingComponents": {
-    "tabs": "/components/tabs/tabs"
-  }
-}

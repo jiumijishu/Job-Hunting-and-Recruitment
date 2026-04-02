@@ -1,8 +1,0 @@
-{
-  "navigationBarBackgroundColor": "#FFFFFF",
-  "navigationBarTitleText": "",
-  "navigationStyle": "custom",
-  "usingComponents": {
-    "company": "/components/list/company"
-  }
-}

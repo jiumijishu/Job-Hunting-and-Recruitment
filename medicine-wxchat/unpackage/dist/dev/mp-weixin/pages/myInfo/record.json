@@ -1,7 +1,0 @@
-{
-  "navigationBarBackgroundColor": "#FFFFFF",
-  "navigationBarTitleText": "浏览记录",
-  "usingComponents": {
-    "post": "/components/list/post"
-  }
-}

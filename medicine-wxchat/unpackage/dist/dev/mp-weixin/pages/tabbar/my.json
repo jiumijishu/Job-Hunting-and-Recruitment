@@ -1,9 +1,0 @@
-{
-  "navigationBarTitleText": "个人中心",
-  "navigationStyle": "custom",
-  "navigationBarTextStyle": "white",
-  "enablePullDownRefresh": true,
-  "usingComponents": {
-    "my-info": "/components/information/my"
-  }
-}

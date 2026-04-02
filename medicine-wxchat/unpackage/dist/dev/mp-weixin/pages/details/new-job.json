@@ -1,7 +1,0 @@
-{
-  "navigationBarBackgroundColor": "#FFFFFF",
-  "navigationBarTitleText": "最新职位",
-  "usingComponents": {
-    "post": "/components/list/post"
-  }
-}

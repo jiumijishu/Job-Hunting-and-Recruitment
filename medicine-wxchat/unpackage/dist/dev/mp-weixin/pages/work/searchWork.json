@@ -1,9 +1,0 @@
-{
-  "navigationBarTitleText": "搜索",
-  "navigationBarBackgroundColor": "#FFFFFF",
-  "enablePullDownRefresh": false,
-  "usingComponents": {
-    "company": "/components/list/company",
-    "post": "/components/list/post"
-  }
-}

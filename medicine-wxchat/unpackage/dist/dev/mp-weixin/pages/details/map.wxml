@@ -1,1 +1,0 @@
-<view class="map-info safe-padding data-v-76f064a6"><view class="map safe-margin data-v-76f064a6"><map style="width:100%;height:100%;" latitude="{{latitude}}" longitude="{{longitude}}" scale="{{scale}}" markers="{{marker}}" data-event-opts="{{[['markertap',[['toMap']]]]}}" bindmarkertap="__e" class="data-v-76f064a6"></map></view></view>
