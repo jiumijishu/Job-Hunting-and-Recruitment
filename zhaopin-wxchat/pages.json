@@ -1,0 +1,349 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "直通车",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/tabbar/work",
+			"style": {
+				"navigationBarTitleText": "找工作",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/tabbar/message",
+			"style": {
+				"navigationBarTitleText": "消息",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/tabbar/my",
+			"style": {
+				"navigationBarTitleText": "个人中心",
+				"navigationStyle": "custom",
+				"navigationBarTextStyle": "#FFFFFF",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/work/searchWork",
+			"style": {
+				"navigationBarTitleText": "搜索",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/login/index",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/work/text",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom",
+				"navigationBarTextStyle": "#FFFFFF",
+				"enablePullDownRefresh": false
+			}
+		}
+	],
+	"tabBar": {
+		"color": "#A5A6AB",
+		"selectedColor": "#4684FC",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/tabbar/home.png",
+				"selectedIconPath": "static/tabbar/home-select.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/tabbar/work",
+				"iconPath": "static/tabbar/work.png",
+				"selectedIconPath": "static/tabbar/work-select.png",
+				"text": "找工作"
+			},
+			{
+				"pagePath": "pages/tabbar/message",
+				"iconPath": "static/tabbar/message.png",
+				"selectedIconPath": "static/tabbar/message-select.png",
+				"text": "信息"
+			},
+			{
+				"pagePath": "pages/tabbar/my",
+				"iconPath": "static/tabbar/my.png",
+				"selectedIconPath": "static/tabbar/my-select.png",
+				"text": "我的"
+			}
+		]
+	},
+	"subPackages": [{
+			"root": "pages/search",
+			"pages": [{
+					"path": "screen",
+					"style": {
+						"navigationBarBackgroundColor": "#FFFFFF",
+						"navigationBarTitleText": "筛选"
+					}
+				},
+				{
+					"path": "index",
+					"style": {
+						"navigationBarBackgroundColor": "#FFFFFF",
+						"navigationBarTitleText": "求职意向"
+					}
+				},
+				{
+					"path": "addIntention",
+					"style": {
+						"navigationBarBackgroundColor": "#FFFFFF",
+						"navigationBarTitleText": "求职意向"
+					}
+				},
+				{
+					"path": "modifyIntention",
+					"style": {
+						"navigationBarBackgroundColor": "#FFFFFF",
+						"navigationBarTitleText": "求职意向"
+					}
+				},
+				{
+					"path": "comScreen",
+					"style": {
+						"navigationBarBackgroundColor": "#FFFFFF",
+						"navigationBarTitleText": "筛选"
+					}
+				}
+			]
+		},
+		{
+			"root": "pages/details",
+			"pages": [{
+					"path": "company-details",
+					"style": {
+						"navigationBarBackgroundColor": "#FFFFFF",
+						"navigationBarTitleText": "公司详情"
+					}
+				},
+				{
+					"path": "info-list",
+					"style": {
+						"navigationBarBackgroundColor": "#FFFFFF",
+						"navigationBarTitleText": "资讯动态"
+					}
+				},
+				{
+					"path": "new-job",
+					"style": {
+						"navigationBarBackgroundColor": "#FFFFFF",
+						"navigationBarTitleText": "最新职位"
+					}
+				},
+				{
+					"path": "news",
+					"style": {
+						"navigationBarBackgroundColor": "#FFFFFF",
+						"navigationBarTitleText": "新闻详情"
+					}
+				},
+				{
+					"path": "position-details",
+					"style": {
+						"navigationBarBackgroundColor": "#FFFFFF",
+						"navigationBarTitleText": "职位详情"
+					}
+				},
+				{
+					"path": "map",
+					"style": {
+						"navigationBarBackgroundColor": "#FFFFFF",
+						"navigationBarTitleText": "地图"
+					}
+				},
+				{
+					"path": "career-direction",
+					"style": {
+						"navigationBarBackgroundColor": "#FFFFFF",
+						"navigationBarTitleText": "职业方向",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "career-direction-details",
+					"style": {
+						"navigationBarBackgroundColor": "#FFFFFF",
+						"navigationBarTitleText": "职业方向详情",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "industry",
+					"style": {
+						"navigationBarBackgroundColor": "#FFFFFF",
+						"navigationBarTitleText": "",
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "directories",
+					"style": {
+						"navigationBarBackgroundColor": "#FFFFFF",
+						"navigationBarTitleText": "企业名录"
+					}
+				}
+			]
+		},
+		{
+			"root":"pages/myInfo",
+			"pages":[
+				{
+					"path":"management",
+					"style":{
+						"navigationBarBackgroundColor": "#FFFFFF",
+						"navigationBarTitleText": "简历管理"
+					}
+				},
+				{
+					"path":"coll",
+					"style":{
+						"navigationBarBackgroundColor": "#FFFFFF",
+						"navigationBarTitleText": "我的收藏"
+					}
+				},
+				{
+					"path":"info",
+					"style":{
+						"navigationBarTitleText": "简历信息",
+						"navigationStyle": "custom",
+						"navigationBarTextStyle": "#FFFFFF",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path":"resume",
+					"style":{
+						"navigationBarTitleText": "在线简历",
+						"navigationStyle": "custom",
+						"navigationBarTextStyle": "#FFFFFF",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path":"online-resume",
+					"style":{
+						"navigationBarBackgroundColor": "#FFFFFF",
+						"navigationBarTitleText": "在线简历"
+					}
+				},
+				{
+					"path":"resume-attachment",
+					"style":{
+						"navigationBarBackgroundColor": "#FFFFFF",
+						"navigationBarTitleText": "简历附件"
+					}
+				},
+				{
+					"path":"certificate",
+					"style":{
+						"navigationBarBackgroundColor": "#FFFFFF",
+						"navigationBarTitleText": "技能证书"
+					}
+				},
+				{
+					"path":"intention",
+					"style":{
+						"navigationBarBackgroundColor": "#FFFFFF",
+						"navigationBarTitleText": "求职意向"
+					}
+				},
+				{
+					"path":"about",
+					"style":{
+						"navigationBarBackgroundColor": "#FFFFFF",
+						"navigationBarTitleText": "关于我们"
+					}
+				},
+				{
+					"path":"opinion",
+					"style":{
+						"navigationBarBackgroundColor": "#FFFFFF",
+						"navigationBarTitleText": "意见反馈"
+					}
+				},
+				{
+					"path":"record",
+					"style":{
+						"navigationBarBackgroundColor": "#FFFFFF",
+						"navigationBarTitleText": "浏览记录"
+					}
+				},
+				{
+					"path":"delivery-record",
+					"style":{
+						"navigationBarBackgroundColor": "#FFFFFF",
+						"navigationBarTitleText": "投递记录"
+					}
+				}
+			]
+		}
+
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"usingComponents": {
+			"van-button": "/wxcomponents/vant/button/index",
+			"van-tab": "/wxcomponents/vant/tab/index",
+			"van-tabs": "/wxcomponents/vant/tabs/index",
+			"van-cell-group": "/wxcomponents/vant/cell-group/index",
+			"van-cell": "/wxcomponents/vant/cell/index",
+			"van-image": "/wxcomponents/vant/image/index",
+			"van-icon": "/wxcomponents/vant/icon/index",
+			"van-nav-bar": "/wxcomponents/vant/nav-bar/index",
+			"van-tag": "/wxcomponents/vant/tag/index",
+			"van-divider": "/wxcomponents/vant/divider/index",
+			"van-field": "/wxcomponents/vant/field/index",
+			"van-dialog": "/wxcomponents/vant/dialog/index",
+			"van-dropdown-menu": "/wxcomponents/vant/dropdown-menu/index",
+			"van-dropdown-item": "/wxcomponents/vant/dropdown-item/index",
+			"van-sticky": "/wxcomponents/vant/sticky/index",
+			"van-radio": "/wxcomponents/vant/radio/index",
+			"van-radio-group": "/wxcomponents/vant/radio-group/index",
+			"van-search": "/wxcomponents/vant/search/index",
+			"van-uploader": "/wxcomponents/vant/uploader/index",
+			"van-calendar": "/wxcomponents/vant/calendar/index",
+			"van-action-sheet": "/wxcomponents/vant/action-sheet/index",
+			"van-notice-bar": "/wxcomponents/vant/notice-bar/index",
+			"van-tree-select": "/wxcomponents/vant/tree-select/index",
+			 "van-toast": "/wxcomponents/vant/toast/index",
+			  "van-loading": "/wxcomponents/vant/loading/index",
+			  "van-popup": "/wxcomponents/vant/popup/index",
+			   "van-area": "/wxcomponents/vant/area/index"
+		}
+
+	},
+	"uniIdRouter": {},
+	"condition" : { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [
+			{
+				"name": "", //模式名称
+				"path": "", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到
+			}
+		]
+	}
+}
