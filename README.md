@@ -96,7 +96,7 @@ Java + Spring Boot + Spring MVC + MyBatis-Plus
 #### 项目演示环境获取
  支持与交流，请添加客服，请备注来意，承接求职招聘项目定制开发；
  
- <img width="559" height="565" alt="image" src="https://github.com/user-attachments/assets/d5707d1b-1641-4257-80a1-1110f3c32b91" />
+![输入图片说明](zhaopin-admin-company/wx.png) 
 
 #### 开源须知
 
