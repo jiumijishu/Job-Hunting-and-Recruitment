@@ -1,0 +1,264 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/work/index",
+			"style": {
+				"navigationBarTitleText": "职位",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/work/searchWork",
+			"style": {
+				"navigationBarTitleText": "搜索"
+			}
+		},
+		{
+			"path": "pages/work/text",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/enterprise/index",
+			"style": {
+				"navigationBarTitleText": "企业",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/enterprise/companyProfile/index",
+			"style": {
+				"navigationBarTitleText": "公司简介",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/resume/index",
+			"style" : {
+				"navigationBarTitleText": "简历",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/resume/onlineResume/index",
+			"style" : {
+				"navigationBarTitleText": "在线简历",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/message/index",
+			"style": {
+				"navigationBarTitleText": "消息",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/message/chat/index",
+			"style" : {
+				"navigationBarTitleText": "联系",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/message/jobDetail/index",
+			"style": {
+				"navigationBarTitleText": "职位详情",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/mine/index",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/mine/vip/index",
+			"style" : {
+				"navigationBarTitleText": "VIP",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/mine/onlineResume/index",
+			"style": {
+				"navigationBarTitleText": "在线简历",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/login/index",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		}
+	],
+	"subPackages": [
+		{
+			"root": "TUIKit",
+			"pages": [
+				{
+					"path": "components/TUIConversation/index",
+					"style": {
+						"navigationBarTitleText": "腾讯云 IM"
+					}
+				},
+				{
+					"path": "components/TUIChat/index",
+					"style": {
+						"navigationBarTitleText": "腾讯云 IM",
+						"app-plus": {
+							"softinputMode": "adjustResize",
+							"titleNView": {
+								"buttons": [
+									{
+										"type": "menu"
+									}
+								]
+							}
+						},
+						"h5": {
+							"titleNView": {
+								"buttons": []
+							}
+						}
+					}
+				},
+				{
+					"path": "components/TUIChat/video-play",
+					"style": {
+						"navigationBarTitleText": "腾讯云 IM"
+					}
+				},
+				{
+					"path": "components/TUIChat/web-view",
+					"style": {
+						"navigationBarTitleText": "腾讯云 IM"
+					}
+				},
+				{
+					"path": "components/TUIContact/index",
+					"style": {
+						"navigationBarTitleText": "腾讯云 IM"
+					}
+				},
+				{
+					"path": "components/TUIGroup/index",
+					"style": {
+						"navigationBarTitleText": "腾讯云 IM"
+					}
+				},
+				{
+					"path": "components/TUISearch/index",
+					"style": {
+						"navigationBarTitleText": "聊天记录"
+					}
+				}
+			]
+		},
+		{
+			"root": "pages/search",
+			"pages": [
+				{
+					"path": "screen",
+					"style": {
+						"navigationBarTitleText": "筛选"
+					}
+				},
+				{
+					"path": "modifyIntention",
+					"style": {
+						"navigationBarTitleText": "求职意向"
+					}
+				},
+				{
+					"path": "addIntention",
+					"style": {
+						"navigationBarTitleText": "求职意向"
+					}
+				},
+				{
+					"path": "index",
+					"style": {
+						"navigationBarTitleText": "求职意向"
+					}
+				},
+				{
+					"path": "comScreen",
+					"style": {
+						"navigationBarTitleText": "筛选"
+					}
+				}
+			]
+		}
+	],
+	"preloadRule": {
+		"pages/index/index": {
+			"network": "all",
+			"packages": ["TUIKit"]
+		}
+	},
+	"tabBar": {
+	    "color": "#686E8B",
+	    "selectedColor": "#16B3B2",
+	    "backgroundColor": "#FFFFFF",
+		"fontSize": "10px",
+		"iconWidth": "28px",
+		"spacing": "20px",
+		"height": "90px",
+	    "list": [
+			{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "/static/tabs/home.png",
+				"selectedIconPath": "/static/tabs/home-active.png"
+			},
+			{
+				"pagePath": "pages/work/index",
+				"text": "职位",
+				"iconPath": "/static/tabs/work.png",
+				"selectedIconPath": "/static/tabs/work-active.png"
+			},
+			{
+				"pagePath": "pages/enterprise/index",
+				"text": "企业",
+				"iconPath": "/static/tabs/enterprise.png",
+				"selectedIconPath": "/static/tabs/enterprise-active.png"
+			},
+			// {
+			// 	"pagePath": "pages/resume/index",
+			// 	"text": "简历",
+			// 	"iconPath": "/static/tabs/resume.png",
+			// 	"selectedIconPath": "/static/tabs/resume-active.png"
+			// },
+			{
+				"pagePath": "pages/message/index",
+				"text": "消息",
+				"iconPath": "/static/tabs/message.png",
+				"selectedIconPath": "/static/tabs/message-active.png"
+			},
+			{
+				"pagePath": "pages/mine/index",
+				"text": "我的",
+				"iconPath": "/static/tabs/mine.png",
+				"selectedIconPath": "/static/tabs/mine-active.png"
+			}
+	    ]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#F4F5F8"
+	}
+}
