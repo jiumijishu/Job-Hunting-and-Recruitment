@@ -96,6 +96,7 @@ Java + Spring Boot + Spring MVC + MyBatis-Plus
 #### 项目演示环境获取
 
 用户移动端（用户端+企业端），求职者和企业共用一个端，提供H5演示
+
 http://jobh5.xiaoxiangai.com
 
 账户：13627255297  
@@ -103,10 +104,14 @@ http://jobh5.xiaoxiangai.com
 
 
 用户PC端（用户端+企业端），求职者和企业共用一个端
+
 http://jobpc.xiaoxiangai.com
 
 账户： 18686361351 
 密码： 123456
+
+APP地址支持安卓手机下载：
+https://www.pgyer.com/zhinengzhaopinwang
 
 支持与交流，请添加客服，请备注来意，承接求职招聘项目定制开发；
  
